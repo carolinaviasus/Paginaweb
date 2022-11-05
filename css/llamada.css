@@ -6,25 +6,31 @@
     color: var(--background-blanco);
     text-align: center;
     
-    background-color: var(--background-llamada-mobile);
+    /* background-color: var(--background-llamada-mobile); */
 
     padding-top: 12.25rem;
     padding-bottom: 2.5rem;
 }
 
 .llamada__titulo {
-    font-family: var(--montserrat);
-    font-size: 2rem;
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 700;
+    font-size: 52px;
+    line-height: 52px;
+    /* or 100% */
+    
+    text-align: center;
     text-transform: uppercase;
-
-    margin-bottom: 1.5rem;
+    
+    color: #FFFFFF;
+    
 }
 
 .llamada__texto {
     font-size: 1.25rem;
     line-height: normal;
-
+    text-align: justify;
     margin: 0 auto 2.5rem;
 }
 

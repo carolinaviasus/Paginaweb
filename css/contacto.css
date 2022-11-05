@@ -19,11 +19,23 @@
 
     margin-bottom: 1.25rem;
 }
-
+.contacto_texto{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+}
 .contacto__boton {
-    color: var(--boton-rojo);
-
+    color: #E33B3B;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
     border-color: var(--boton-rojo);
-
     margin-top: 1.25rem;
 }
+

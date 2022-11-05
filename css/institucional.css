@@ -1,11 +1,9 @@
 .institucional {
     display: flex;
     flex-direction: column;
-    align-items: center;
-
+    /* align-items: center; */
     color: var(--fuente-ceniza-oscuro);
-    text-align: center;
-
+    /* text-align: center; */
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -35,20 +33,38 @@
 .institucional__contacto {
     font-size: 1.2rem;
     line-height: 1.8;
-
     margin-top: 2rem;
 }
 
 .institucional__contacto-telefono {
-    line-height: normal;
+    color: #0006FF;
+    text-decoration: underline;
+    display: block;
 }
 
 .institucional__contacto-email {
-    color: var(--fuente-ceniza-oscuro);
+    color: #0006FF;
     text-decoration: underline;
     display: block;
 }
 
 .institucional__video {
-    width: 100vw;
+    Width: 375px;
+    Height: 210px;
+    /* align-items: center; */
+    /* justify-content: flex-end; */
+}
+
+.division_institucional {
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-evenly; 
+}
+.primeralista{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.videoed{
+    align-items: flex-end;
 }

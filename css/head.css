@@ -1,5 +1,5 @@
 .head {
-    color: var(--background-blanco);
+     color: var(--background-blanco);
 
     width: 100%;
 
@@ -7,8 +7,7 @@
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-
+    /* align-items: center; */
     padding-top: .75rem;
     padding-bottom: .75rem;
 
@@ -18,10 +17,17 @@
 }
 
 .head__logo {
-    margin-bottom: 1rem;
+    
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 2rem 1rem;
+    margin-bottom: 2rem;
 }
 
 .head__navegacion {
+    width: 650px;
+    height: 18px;
     text-align: center;
 }
 
@@ -33,4 +39,27 @@
     margin-right: .7rem;
     margin-bottom: .7rem;
     margin-left: .7rem;
+}
+.head_fondo{
+background-image: url("../img/cabeza.png");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 425px;
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: row;  
+    justify-content:flex-start; 
+    align-items: center;
+}
+.cabezas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.foto{
+    align-items: flex-s;
 }
